@@ -13,7 +13,6 @@ public class ComputerNumbers : MonoBehaviour
     float varA;
     float varB;
 
-
     public void SetResult()
     {
         result.text = AddNumbers();
@@ -26,7 +25,6 @@ public class ComputerNumbers : MonoBehaviour
     }
     string AddNumbers()
     {
-  
             varA = float.Parse(input1.text);
             varB = float.Parse(input2.text);
 
@@ -44,6 +42,5 @@ public class ComputerNumbers : MonoBehaviour
         input2.interactable = true;
         addnumbersButton.interactable = true;
         resetButton.interactable = false;
- 
     }
 }
