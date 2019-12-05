@@ -7,14 +7,23 @@ public class ComputerNumbers : MonoBehaviour
     public InputField input2;
     public Text result;
 
+    public Button addnumbersButton;
+    public Button resetButton;
+
     float varA;
     float varB;
+
 
     public void SetResult()
     {
         result.text = AddNumbers();
-    }
 
+        input1.interactable = false;
+        input2.interactable = false;
+
+        addnumbersButton.interactable = false;
+        resetButton.interactable = true;
+    }
     string AddNumbers()
     {
   
@@ -29,6 +38,12 @@ public class ComputerNumbers : MonoBehaviour
     {
         input1.text = "0";
         input2.text = "0";
-        result.text = "";
+        result.text = "insert numbers";
+
+        input1.interactable = true;
+        input2.interactable = true;
+        addnumbersButton.interactable = true;
+        resetButton.interactable = false;
+ 
     }
 }

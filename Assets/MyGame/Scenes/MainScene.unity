@@ -814,6 +814,8 @@ MonoBehaviour:
   input1: {fileID: 1783121282}
   input2: {fileID: 601937476}
   result: {fileID: 1369553417}
+  addnumbersButton: {fileID: 2101474761}
+  resetButton: {fileID: 1823941272}
 --- !u!1 &1066609253
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,8 +1008,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 167.84999, y: 250.97498}
-  m_SizeDelta: {x: 160, y: 66.7}
+  m_AnchoredPosition: {x: 303.5, y: 251.03}
+  m_SizeDelta: {x: 431.3, y: 66.596}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1369553417
 MonoBehaviour:
